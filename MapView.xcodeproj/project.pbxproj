@@ -15,6 +15,7 @@
 		51F080141CA0505100E0863B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F080121CA0505100E0863B /* LaunchScreen.storyboard */; };
 		51F0801F1CA0505100E0863B /* MapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F0801E1CA0505100E0863B /* MapViewTests.m */; };
 		51F0802A1CA0505100E0863B /* MapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F080291CA0505100E0863B /* MapViewUITests.m */; };
+		51F080381CA055CC00E0863B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F080371CA055CC00E0863B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		51F080251CA0505100E0863B /* MapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F080291CA0505100E0863B /* MapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewUITests.m; sourceTree = "<group>"; };
 		51F0802B1CA0505100E0863B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F080371CA055CC00E0863B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F080381CA055CC00E0863B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		51F07FF81CA0505100E0863B = {
 			isa = PBXGroup;
 			children = (
+				51F080371CA055CC00E0863B /* MapKit.framework */,
 				51F080031CA0505100E0863B /* MapView */,
 				51F0801D1CA0505100E0863B /* MapViewTests */,
 				51F080281CA0505100E0863B /* MapViewUITests */,
